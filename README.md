@@ -1,29 +1,23 @@
 # zomath.github.io
 # HTML基础
 ## 声明
-> `html <!DOCTYPE>`
+> ``` <!DOCTYPE>```
 ## 中文编码
->`html <meta charset='utf-8'>`
+>```html <meta charset='utf-8'>```
 
 ## HTML 标题
 标题大小逐级递减
->```html
-<h1>heading1</h1>
-<h2>heading2</h2>
-```
+>```<h1>heading1</h1>```
+>```<h2>heading2</h2>```
 
 ## HTML 段落
->```html
-<p>this is a paragraph</p>
-<p>this is other paragraph</p>
-```
+>```<p>this is a paragraph</p>```
+>```<p>this is other paragraph</p>```
 
 ## HTML链接
->`html
-<a href="http://zomath.github.io">Zomath</a>
-`
+>```<a href="http://zomath.github.io">Zomath</a>```
 
 ## HTML图像
-> `html <img src="~/Pictures/Zzmath.png" width="258" height="258/>`
+>```html <img src="~/Pictures/Zzmath.png" width="258" height="258/>```
 
 
