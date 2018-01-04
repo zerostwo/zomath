@@ -1,17 +1,7 @@
 # zomath.github.io
 # HTML基础
-## <!DOCTYPE>声明
-<!DOCTYPE>有助于浏览器中正确显示网页。
-网络上有很多不同的文件，如果能够正确声明HTML的版本，浏览器就能正确显示网页内容.
-doctype 声明是不区分大小写的，以下方式均可：
-
->```
-<!DOCTYPE html> 
-<!DOCTYPE HTML> 
-<!doctype html> 
-<!Doctype Html>
-```
-
+## 声明
+> `<!DOCTYPE>`
 ## 中文编码
 >`<meta charset='utf-8'>`
 
