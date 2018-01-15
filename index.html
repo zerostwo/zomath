@@ -1,88 +1,546 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Zzmath</title>
-		<meta charset="utf-8">
-		<link rel="SHORTCUT ICON" href="images/logo.ico">
-		<link rel="stylesheet" href="css/index.css" type="text/css">
-	</head>
-	<body>
-		<img src="images/logo.jpg" alt="logo" title="zzmath" class="logo" align="right">
-		<h1 id="top">Hello,world</h1>
-		<p>this is my site.</p><br>
-		<h2>寒假计划</h2>
-		<p>
-			<ul>
-				<li>2018.01.24-2018.02.05:超级高考生App</li>
-				<li>2018.02.06-2018.02.15:看文献</li>
-			</ul>
-		</p>
-		<table border="2" bgcolor="#efefef">
-			<thead>
-			<tr>
-				<th></th>
-				<th scope="col">Mon</th>
-				<th scope="col">Tue</th>
-				<th scope="col">Wed</th>
-				<th scope="col">Thu</th>
-				<th scope="col">Fri</th>
-				<th scope="col">Sat</th>
-				<th scope="col">Sun</th>
-			</tr>
-			</thead>
-			<tbody>
-				<tr>
-				<th scope="row">第一周</th>
-				<td>15</td>
-				<td>16</td>
-				<td>17</td>
-				<td>18</td>
-				<td>19</td>
-				<td>20</td>
-				<td>21</td>
-			</tbody>
-			</tr>
-			<tr>
-				<th scope="row">安排</th>
-				<td colspan="4">刷高考题</td>
-				<td>En</td>
-				<td colspan="2">Home</td>
-			</tr>
-			<tr>
-				<th scope="row">第二周</th>
-				<td>22</td>
-				<td>23</td>
-				<td>24</td>
-				<td>25</td>
-				<td>26</td>
-				<td>27</td>
-				<td>28</td>
-			</tr>
-		</table>
-		<h2><strong>作者信息：</strong></h2>
-		<dl>
-			<dt>作者</dt>
-				<dd>薛定谔的死亡猫</dd>
-			<dt>简介</dt>
-				<dd>知乎专栏创始人，本网站创始人。</dd>
-			<dt>专业</dt>
-				<dd>食品科学与工程</dd>
-			<dt>学校</dt>
-				<dd>SCIAU</dd>
-			<dt>理念</dt>
-				<dd><cite>Zeal for zenith of math.</cite></dd>
-		</dl>
-		<h2><strong>联系我们：</strong></h2>
-		<address>
-			<p>知乎：<a href="https://www.zhihu.com/people/songtoki-duan/activities" target="_blank">薛定谔的死亡猫</a></p>
-			<p>QQ邮箱：<a href="mailto:541447842@qq.com">541447842@qq.com</a></p>
-			<p>QQ群：572537548</p>
-		</address>
-		<h2>您的建议：</h2>
-		<form action="index.html">
-			<p>请把您对于本站的建议通过下框告诉我：</p>
-			<textarea name="suggests" cols="35" rows="5">请输入您的建议...</textarea>
-		</form>
-		<p><a href="#top">Top</a></p>
-	</body>
+<html lang="zxx">
+<script>
+		var _hmt = _hmt || [];
+		(function() {
+ 			var hm = document.createElement("script");
+  			hm.src = "https://hm.baidu.com/hm.js?9254b05ecbd6c2c4bb783cdc650cba93";
+  			var s = document.getElementsByTagName("script")[0]; 
+  			s.parentNode.insertBefore(hm, s);
+			})();
+</script>
+<head>
+<title>Zzmath</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<link rel="SHORTCUT ICON" href="images/logo.ico">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+</head>
+<body>
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html"><span>Z</span>zmath</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="linkEffects cl-effect-1">
+						<ul class="nav navbar-nav w3-agileits_home_nav">
+							<li>
+								<a class="scroll" href="#about">高中</a>
+							</li>
+							<li>
+								<a class="scroll" href="#projects">大学</a>
+							</li>
+							<li>
+								<a class="scroll" href="#projects">科研</a>
+							</li>
+							<li>
+								<a class="scroll" href="#team">编程</a>
+							</li>
+							<li>
+								<a class="scroll" href="#testimonials">赞助</a>
+							</li>
+							<li>
+								<a class="scroll" href="#contact">联系</a>
+							</li>
+							<li>
+								<a class="scroll" href="#contact">关于</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+			<div class="w3layouts_banner_info">
+				<section class="wrapper agileits-w3layouts_wrapper_home text-center">
+					<div class="sentence">
+						<div class="popEffect">						
+							<span>Zeal for zenith of math </span>
+							<!--<span>highest standards in service</span>
+							<span>highest standards in reliability</span>-->
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- about -->
+<div class="jarallax agile-about w3ls-section" id="about">
+	<div class="container">
+		<h3 class="h3-w3l text-center">What we do</h3>
+		<div class="col-md-6 col-sm-6 agileits-about-grid1">
+			<p>Sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit anim id est laboth. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sunt in culpa qui .</p>
+		</div>
+		<div class="col-md-6 col-sm-6  agileits-about-grid1 about-grid2">
+			<p>Sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit anim id est laboth. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sunt in culpa qui .</p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="button">
+			<a href="#" data-toggle="modal" data-target="#myModal">Get More<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+		</div>
+		<div class="agileinfo-about-bottom">
+			<div class="col-md-4 col-sm-4 col-xs-4 agileinfo-about-grid1">
+				<div class="a1">
+					<h4>abore et dolore magna aliqua</h4>
+					<p class="ag1-p">Sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia deserunt.</p>
+					<p>Labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia.</p>
+					<div class="about-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">Get More</a>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-8 agileinfo-about-grid2">
+				<div class="about-sub-grid2">
+					<div class="a2">
+						<h4>abore et dolore magna aliqua</h4>
+						<p>Sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit anim id est laboth. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+						<div class="about-button">
+							<a href="#" data-toggle="modal" data-target="#myModal">Get More</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6 about-sub-grid1 m1">
+					<h4>abore et dolore magna</h4>
+					<p>Sed do eiusmod	tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, sunt in culpa.</p>
+					<div class="about-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">Get More</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6 about-sub-grid1">
+					<h4>abore et dolore magna</h4>
+					<p>Sed do eiusmod	tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, sunt in culpa.</p>
+					<div class="about-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">Get More</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div> 
+	</div>
+</div>		
+<!-- //about -->
+<div class="jarallax agileits-section w3ls-section text-center">
+	<div class="container">
+		<h3 class="h3-w3l">consectetur adipisicing elit</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore sed do.</p>
+		<p>sed do eiusmod tempor incididunt ut labore sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore sed do.</p>
+		<div class="button">
+			<a href="#" data-toggle="modal" data-target="#myModal">Get More<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+		</div>
+	</div>
+</div>	
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+	<div class="modal-dialog">
+		<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2>genesis</h2>
+					<img src="images/g8.jpg" alt="genesis" class="img-responsive"/>
+					<span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium, totam rem aperiamconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+			</div>
+	</div>
+</div>
+<!-- //Modal -->
+<!-- gallery -->
+		<div class="gallery w3ls-section"  id="projects">
+			<div class="container">
+				<h3 class="h3-w3l text-center">projects</h3>
+				<div id="jzBox" class="jzBox">
+					<div id="jzBoxNextBig"></div>
+					<div id="jzBoxPrevBig"></div>
+					<img src="#" id="jzBoxTargetImg" alt="">
+					<div id="jzBoxBottom">
+						<div id="jzBoxTitle"></div>
+						<div id="jzBoxCounter"></div>
+						<span id="jzBoxMoreItems"> 
+							<i class="glyphicon glyphicon-chevron-left" id="jzBoxPrev"></i> &nbsp;
+							<i class="glyphicon glyphicon-chevron-right" id="jzBoxNext"></i> &nbsp;
+						</span>
+						<i class="glyphicon glyphicon-remove-circle" id="jzBoxClose"></i>
+					</div>
+				</div>
+				<div class="gallery-grids-row">
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g1.jpg" class="jzBoxLink item-hover" title="Maecenas sodales tortor ac ligula ultrices dictum et quis urna.">  
+								<img src="images/g1.jpg" class="img-responsive" alt=" " />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    		
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g2.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g2.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g7.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g7.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g3.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g3.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g9.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g9.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 gallery-grid">
+						<div class="wpf-demo-4">  
+							<a href="images/g6.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g6.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>  
+						</div> 
+						<div class="wpf-demo-4">  
+							<a href="images/g8.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g8.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div>
+						<div class="wpf-demo-4">  
+							<a href="images/g5.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
+								<img src="images/g5.jpg" alt=" " class="img-responsive" />
+								<div class="view-caption">
+									<p>our projects</p>
+								</div> 
+							</a>    			
+						</div> 
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //gallery --> 
+<!-- services-bottom -->
+	<div class="services-bottom">
+		<div class="container">
+			<div class="services_bottom_grid_left1">
+				<img src="images/b3.png" alt=" " class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-2 services_bottom_grid_left">
+				
+			</div>
+			<div class="col-md-8 col-sm-10 services_bottom_grid_right">
+				<h3 class="agileits-title">we make your business</h3>
+				<p>Mauris tempor rhoncus risus, vitae faucibus enim venenatis vel. sed do eiusmod tempor incididunt ut labore sed do.</p>
+			</div>
+		</div>
+	</div>
+<!-- //services-bottom -->
+<!-- team -->
+	<div class="team w3ls-section" id="team">
+		<div class="container">
+			<h3 class="h3-w3l">Meet Our Team</h3>
+			<div class="agile_team_grids">
+				<div class="col-md-3 col-sm-6 co-xs-6 agile_team_grid  agile_team_gridf">
+					<div class="agile_team_grid_main">
+						<img src="images/m1.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<h4>Guy Ritchie</h4>
+							<span>CEO, Asia Group</span>
+							<ul class="social-icons">
+								<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
+								<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
+								<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
+								<li><a href="#" class="icon-button pinterest"><i class="pinterest"></i><span></span></a></li>
+							</ul>
+						</div>
+						<div class="tg1"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 agile_team_grid agile_team_grid2">
+					<div class="agile_team_grid_main">
+						<img src="images/m2.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<h4>Martina</h4>
+							<span>CEO, Asia Group</span>
+							<ul class="social-icons">
+								<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
+								<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
+								<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
+								<li><a href="#" class="icon-button pinterest"><i class="pinterest"></i><span></span></a></li>
+							</ul>
+						</div>
+						<div class="tg1"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 agile_team_grid agile_team_grid3">
+					<div class="agile_team_grid_main">
+						<img src="images/m3.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<h4>Lisa kristen</h4>
+							<span>CEO, Asia Group</span>
+							<ul class="social-icons">
+								<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
+								<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
+								<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
+								<li><a href="#" class="icon-button pinterest"><i class="pinterest"></i><span></span></a></li>
+							</ul>
+						</div>
+						<div class="tg1"></div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 agile_team_grid agile_team_grid4">
+					<div class="agile_team_grid_main">
+						<img src="images/m4.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<h4>Rose Alba</h4>
+							<span>CEO, Asia Group</span>
+							<ul class="social-icons">
+								<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
+								<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
+								<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
+								<li><a href="#" class="icon-button pinterest"><i class="pinterest"></i><span></span></a></li>
+							</ul>
+						</div>
+						<div class="tg1"></div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //team -->
+<!-- testimonials -->
+	<div class="testimonials jarallax w3ls-section" id="testimonials">
+		<div class="container">
+			<h3 class="h3-w3l text-center">Testimonials</h3>
+		<div class="w3_testimonials_grids w3_testimonials_grids">
+			<div class="sreen-gallery-cursual">
+				<div id="owl-demo" class="owl-carousel">
+						 <div class="item-owl">
+							<div class="col-md-3 col-sm-3 col-xs-3 img-agile">
+								<img src="images/t1.jpg" class="img-responsive" alt=""/>
+								<h6>Michael Paul</h6>
+							</div>
+							<div class="col-md-9 col-sm-9 col-xs-9 test-review test-tooltip1">
+								<p><i class="fa fa-quote-left" aria-hidden="true"></i> Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+							</div>
+						 </div>
+						 <div class="item-owl">
+							<div class="col-md-3 col-sm-3 col-xs-3 img-agile">
+								<img src="images/t2.jpg" class="img-responsive" alt=""/>
+								<h6>Riya Allen</h6>
+							</div>
+							<div class="col-md-9 col-sm-9 col-xs-9 test-review test-tooltip1">
+								<p> <i class="fa fa-quote-left" aria-hidden="true"></i> Polite sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+							</div>
+						</div>
+						 <div class="item-owl">
+							<div class="col-md-3 col-sm-3 col-xs-3 img-agile">
+								<img src="images/t3.jpg" class="img-responsive" alt=""/>
+								<h6>Riya Allen</h6>
+							</div>
+							<div class="col-md-9 col-sm-9 col-xs-9 test-review test-tooltip1">
+								 <p><i class="fa fa-quote-left" aria-hidden="true"></i> Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+							</div>
+						</div>
+				 </div>
+				<!--//screen-gallery-->
+			</div>	
+		</div>
+	</div>
+</div>
+<!-- //testimonials -->	
+
+<div class="contact-w3-agileits w3ls-section jarallax" id="contact">
+		<div class="container">
+			<h3 class="h3-w3l text-center">Contact Us</h3>
+			<div class="col-md-5 col-sm-5 col-xs-12 contact-left-w3ls">				
+				<div class="visit">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Visit us</h4>
+						<p>2264 Sundown Lane, Texas</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="mail">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Mail us</h4>
+						<p><a href="mailto:info@example.com">info@example.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="call">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Call us</h4>
+						<p>+123456789</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="visit">
+					<div class="col-md-2 col-sm-2 col-xs-2 contact-icon-wthree">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 col-sm-10 col-xs-10 contact-text-agileinf0">
+						<h4>Business hours</h4>
+						<p>Mon-Sat 09:00 AM - 07:00PM</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-7 col-sm-7 col-xs-12 contact-right-w3l">
+				<form action="#" method="post">
+					<input type="text"  class="name" name="name" placeholder="First Name" required="">
+					<input type="text"  class="name" name="name" placeholder="Last Name" required="">
+					<input type="text"  class="name" name="name" placeholder="Email" required="">
+					<input type="text"  class="name" name="name" placeholder="Subject" required="">
+					<textarea placeholder="Your Message" required=""></textarea>
+					<input type="submit" value="SEND MESSAGE">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!--light-box-files -->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<!--//light-box-files -->
+		<script type="text/javascript">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+<!-- //js -->
+
+<!-- testimonials -->
+	<!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : false,
+							        navigation : true,
+							        navigationText : true,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+								 <!--//required-js-files-->
+
+
+<!--map-->
+<div class="agileits_w3layouts-map">
+	<iframe src=""  style="border:0" allowfullscreen></iframe>
+</div>
+<!--map-->
+<!-- //Tooltip -->
+<script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script>
+<!-- here starts scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+										
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+		
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- /ends-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->
+<!-- footer -->
+<div class="agileinfo-copyright text-center">
+		<p>Copyright &copy; 2018.Zzmath All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+</div>
+<!-- //footer -->
+
+</body>
 </html>
