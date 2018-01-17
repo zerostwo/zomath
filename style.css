@@ -94,7 +94,7 @@ a
 }
 
 #searchBoxOne {
-	padding: 20px;
+	padding: 32px;
 	}
 	#searchBoxOne input.search {
 		font-size: 16px;
@@ -156,11 +156,6 @@ a
 	display:inline;
 	padding:0 10px 20px 0;
 }
-
-
-
-
-
 #footer
 {
 	width:900px;
@@ -168,7 +163,6 @@ a
 	margin:1px auto;
 	padding:10px;
 }
-
 #footer p
 {
 	text-align:left;
@@ -177,14 +171,13 @@ a
 	margin:10px;
 	padding:0;
 }
-
 #footerleft
 {
 	float:left;
 	width:600px;
 	margin-left:2px;
 	display:inline;
-	padding:0 10px 30px 0;
+	padding:10px 10px 30px 0;
 }
 
 #footerright
@@ -193,19 +186,17 @@ a
 	width:80px;
 	margin-left:2px;
 	display:inline;
-	padding:0 10px 10px 0;
+	padding:0px 24px 10px 0px;
 }
-
 img
 {
 	border:0;
 	margin-top:0;
 }
-
 /* menu */
 #nav {
 	margin: 0;
-	padding: 7px 6px 0;
+	padding:7px 90px 0px 8px;
 	background: #7d7d7d url(images/gradient.png) repeat-x 0 -110px;
 	line-height: 100%;
 
@@ -223,8 +214,6 @@ img
 	position: relative;
 	list-style: none;
 }
-
-
 /* main level link */
 #nav a {
 	font-weight: bold;
@@ -243,7 +232,6 @@ img
 	background: #000;
 	color: #fff;
 }
-
 /* main level link hover */
 #nav .current a, #nav li:hover > a {
 	background: #666 url(images/gradient.png) repeat-x 0 -40px;
