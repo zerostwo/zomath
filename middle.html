@@ -25,6 +25,7 @@
 				</script>
 		<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">	
 		</script>
+		<script src="js/jquery.js"></script>
 	</head>
 <body>
 		<br />
@@ -94,6 +95,17 @@
 			<!-- menu end -->
 <div id="content">
 	<h2>高中数学</h2>
+	<img src="images/1.png" alt="1">
+	<script>
+		$('img').toggle(
+			function(){
+			this.src="images/100.png";
+			},
+			function(){
+			this.src="images/1.png";
+			}
+		);
+	</script>
 </div>
 <div style="clear: both;">&nbsp;</div>
 <img src="images/bg_banner_grey.gif" width="880" height="5" alt="logo_banner" />
