@@ -39,7 +39,6 @@ a
 	float:left;
 	line-height:normal;
 }
-
 .list1 li img
 {
 	margin:0 30px 30px 0;
@@ -108,7 +107,7 @@ a
 	#searchBoxOne input.submit {
 		background: url(images/01_submit.png) top left no-repeat;
 		width: 67px;
-		height: 32px;
+		height: 30px;
 		border: none;
 		color: #dee4ff;
 		cursor: pointer;
