@@ -15,14 +15,10 @@ h1
 {
 	font-size:56px; margin:0; padding:14px 0 15px;	
 }
-
 h2
 {
-	font-size:22px; font-weight:bold;
-	
-	
+	font-size:22px; font-weight:bold;	
 }
-
 p,ul,ol
 {
 	margin-top:0;
@@ -43,26 +39,22 @@ a
 {
 	margin:0 30px 30px 0;
 }
-
 .list1 li.alt img
 {
 	margin-right:0;
 }
-
 #li a
 {
 	font-weight:400;
 	text-decoration:none;
 	padding:0 0 0 20px;
 }
-
 #li a:hover
 {
 	font-weight:420;
 	color:#666;
 	text-decoration:none;
 }
-
 #logo
 {
 	width:870px;
@@ -74,7 +66,6 @@ a
 	margin:0 auto;
 	padding:0 30px;
 }
-
 #logoleft
 {
 	float:left;
@@ -83,15 +74,12 @@ a
 	display:inline;
 	padding:0 10px 30px 0;
 }
-
 #logoright
 {
 	float:right;
 	width:350px;
 	display:inline;
-
 }
-
 #searchBoxOne {
 	padding: 32px;
 	}
@@ -117,8 +105,6 @@ a
 	#searchBoxOne input.submit:hover {
 		background: url(images/01_submit.png) bottom left no-repeat;
 		}
-
-
 #page
 {
 	width:900px;
@@ -128,7 +114,6 @@ a
 	-moz-border-radius: 1em;
     border-radius: 1em;
 }
-
 #content
 {
 	float:center;
@@ -137,7 +122,6 @@ a
 	margin:0;
 	padding:10px;
 }
-
 #textarea
 {
 	float:left;
@@ -146,7 +130,6 @@ a
 	display:inline;
 	padding:0 10px 20px 0;
 }
-
 #sidebar
 {
 	float:right;
@@ -178,7 +161,6 @@ a
 	display:inline;
 	padding:10px 10px 30px 0;
 }
-
 #footerright
 {
 	float:right;
@@ -264,12 +246,10 @@ img
 
 	text-shadow: 0 1px 1px rgba(0,0,0, .1);
 }
-
 /* dropdown */
 #nav li:hover > ul {
 	display: block;
 }
-
 /* level 2 list */
 #nav ul {
 	display: none;
